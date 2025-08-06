@@ -1,0 +1,1 @@
+export { AMIcon } from './AMIcon';

@@ -1,8 +1,9 @@
-1. Zen Zone - Modern SaaS Platform
+1. AdMyBrand Suite - Modern SaaS Platform
 
 A beautiful, production-ready SaaS platform built with React, TypeScript, and modern web technologies. Features a responsive design, AI-powered chatbot, interactive pricing calculator, and enterprise-grade features.
 
-![Zen Zone Preview](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue)](https://ad-my-brand-suite.vercel.app/)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
 ![React](https://img.shields.io/badge/React-18.3.1-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.11-38B2AC)
@@ -34,12 +35,6 @@ A beautiful, production-ready SaaS platform built with React, TypeScript, and mo
 - Performance Metrics: 99.9% uptime guarantee
 - User Statistics: 50k+ happy users
 
-2.5. Enterprise Security
-- Bank-grade Security: End-to-end encryption
-- SOC 2 Compliance: Industry-standard security
-- GDPR Compliant: Privacy-focused data handling
-- Role-based Access: Team collaboration features
-
 3. Quick Start
 
 3.1. Prerequisites
@@ -50,8 +45,8 @@ A beautiful, production-ready SaaS platform built with React, TypeScript, and mo
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/zen-zone.git
-cd zen-zone
+git clone https://github.com/Jaya3110/AdMyBrand-Suite.git
+cd AdMyBrand_Ai
 
 # Install dependencies
 npm install
@@ -60,7 +55,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at `http://localhost:8080`
+The application will be available at `http://localhost:8080` or your Vercel deployment: https://ad-my-brand-suite.vercel.app/
 
 3.3. Available Scripts
 
@@ -76,7 +71,7 @@ npm run format.fix   # Format code with Prettier
 4. Project Structure
 
 ```
-zen-zone/
+AdMyBrand_Ai/
 ├── client/                    # React frontend
 │   ├── components/
 │   │   ├── layout/           # Header, Footer, ScrollProgress
@@ -211,10 +206,10 @@ vercel
 10.3. Docker
 ```bash
 # Build Docker image
-docker build -t zen-zone .
+docker build -t admybrand-suite .
 
 # Run container
-docker run -p 8080:8080 zen-zone
+docker run -p 8080:8080 admybrand-suite
 ```
 
 11. Contributing
@@ -222,20 +217,4 @@ docker run -p 8080:8080 zen-zone
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-12. License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-13. Acknowledgments
-
-- Radix UI for accessible component primitives
-- TailwindCSS for the utility-first CSS framework
-- Framer Motion for smooth animations
-- Lucide React for beautiful icons
-
----
-
-Built with ❤️ using modern web technologies 
+4. Push to the branch (`
